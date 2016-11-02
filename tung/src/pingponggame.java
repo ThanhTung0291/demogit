@@ -1,3 +1,5 @@
+import java.awt.Dimension;
+
 import javax.swing.JFrame;
 
 /**
@@ -9,6 +11,11 @@ import javax.swing.JFrame;
  *
  */
 public class pingponggame extends JFrame {
+	public pingponggame(){
+		setTitle("Demo");
+		
+		setPreferredSize(new = Dimension);
+	}
 
 	/**
 	 * @param args
